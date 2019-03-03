@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - /bin/cp -R images $DEPLOYPATH/images
+    - export DEPLOYPATH=/home/user/public_html/tests/github/hello-world/
+    - /bin/cp -R index.html $DEPLOYPATH
